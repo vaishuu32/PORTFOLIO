@@ -1,0 +1,410 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Edu+SA+Beginner:wght@500&family=Poppins:wght@100&family=Ubuntu:ital,wght@0,300;1,300;1,400;1,700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Edu+SA+Beginner:wght@500&family=Poppins:wght@100&family=Raleway:ital,wght@1,100&family=Ubuntu:ital,wght@0,300;1,300;1,400;1,700&display=swap');
+
+.one{
+	
+	background-size:cover;
+	height:70px;
+	display: flex;
+	overflow: hidden;
+	position: fixed;
+	top:0%;
+
+
+}
+.total{
+	background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+	
+}
+
+
+.hi{
+	margin-top: 200px;
+	margin-left: 100px;
+}
+.hi h3{
+	font-size: 30px;
+}
+.btn:hover{
+	background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+}
+.imgg{
+	width:400px;
+	height: 400px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	margin-top: 150px;
+	float: right;
+	margin-right: 25px;
+	border:2px solid black;
+
+
+}
+.nav a{
+	
+	font-size:20px;
+	text-decoration: none;
+	padding: 20px ;
+ color:black;
+}
+.name{
+	font-size: 50px;
+}
+.btn{
+	font-size: 20px;
+	font-family: cursive;
+	border-radius: 200px;
+}
+.nav{
+ padding-left:800px;
+ display: flex;
+
+ justify-content: center;
+
+}
+.nav a:hover{
+	
+
+background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+
+	border-radius: 2px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	
+}
+.port{
+	font-size:30px;
+	color:rgb(123,23,45);
+	margin-left: 20px;
+
+
+
+}
+.first{
+	overflow: hidden;
+	top:0%;
+
+}
+#Home{
+
+background: linear-gradient(90.1deg, rgb(175, 237, 255) 10.9%, rgb(255, 163, 252) 63.8%);
+
+    height:100vh;
+
+}
+
+
+.one h2{
+	margin-top: 40px;
+	font-family: 'Borel', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-size: 25px;
+}
+
+#About img{
+
+	margin-top: 20px;
+	float:left;
+	width:400px;
+	height: 400px;
+	border-bottom-left-radius: 200px;
+	border-bottom-right-radius: 200px;
+	border-top-left-radius: 200px;
+	border-top-right-radius: 200px;
+	margin-left: 20px;
+	border:2px solid black;
+
+
+
+}
+.abt p{
+	font-size:30px;
+		margin-left:500px;
+		padding:20px;
+		justify-content: center;
+
+	
+
+
+}
+
+ #About{
+	
+
+background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+
+
+	height:100vh;
+}
+#About h1{
+	font-size:50px;
+	font-family: cursive;
+	text-align: center;
+	margin-top:30px;
+	padding:50px;
+}
+
+#Skills{
+	background: linear-gradient(90.1deg, rgb(175, 237, 255) 10.9%, rgb(255, 163, 252) 63.8%);
+	height:100vh;
+}
+.myski{
+	font-size:50px;
+	font-family: cursive;
+	text-align: center;
+	padding-top:40px;
+
+
+}
+.skill li{
+	font-size: 20px;
+	font-family: cursive;
+	padding-top: 0;
+}
+
+}
+.skill p{
+	font-size: 20px;
+}
+.skills-bar {
+  padding: 25px 30px;
+}
+
+.skills-bar .bar {
+  margin: 25px 0;
+}
+
+.skills-bar .bar .info span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skills-bar .bar .info {
+  margin-bottom: 8px;
+  color:"black;"
+}
+
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 550px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span {
+  position: absolute;
+  
+background: linear-gradient(122.3deg, rgb(111, 71, 133) 14.6%, rgb(232, 129, 166) 29.6%, rgb(237, 237, 183) 42.1%, rgb(244, 166, 215) 56.7%, rgb(154, 219, 232) 68.7%, rgb(238, 226, 159) 84.8%);
+ -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color:black;
+
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.progress-line .html {
+  width: 80%;
+}
+.progress-line .css {
+  width: 70%;
+}
+.progress-line .bootstrap {
+  width: 40%;
+}
+.progress-line .javascript {
+  width: 50%;
+}
+.progress-line .java {
+  width: 60%;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -12px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-style: #f0f0f0;
+  border-top-color: #f0f0f0;
+}
+
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #07374a;
+  font-size: 12px;
+  font-weight: 700;
+  background: #f0f0f0;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+.progress-line .html::after {
+  content: "80%";
+}
+.progress-line .css::after {
+  content: "70%";
+}
+.progress-line .bootstrap::after {
+  content: "40%";
+}
+.progress-line .javascript::after {
+  content: "50%";
+}
+.progress-line .java::after {
+  content: "60%";
+}
+  
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .flow{
+  	display: flex;
+  	
+  	
+  }
+#Projects{
+	
+background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+	
+	height:750px;
+	width:100%;
+}
+.Task1{
+	border-radius: 20px;
+	border:1px solid black;
+	background: linear-gradient(90.1deg, rgb(175, 237, 255) 10.9%, rgb(255, 163, 252) 63.8%);
+
+
+	color:black;
+	width: 300px;
+	height: 300px;
+	padding:20px;
+	margin-right: 50px;
+	display:inline-block;
+}
+ .Task1:hover{
+	background: linear-gradient(90.7deg, rgb(255, 253, 218) 1.9%, rgb(246, 210, 255) 39.3%, rgb(152, 222, 254) 64.7%, rgb(251, 255, 210) 100.8%);
+
+}
+#Projects h1{
+	font-size:50px;
+	font-family: cursive;
+	text-align: center;
+	margin-top:30px;
+	padding:50px;
+	
+}
+.pro{
+	margin-left: 150px;
+}
+.Task1 h2{
+	text-align: center;
+}
+
+
+#Contact{
+	background: linear-gradient(90.1deg, rgb(175, 237, 255) 10.9%, rgb(255, 163, 252) 63.8%);
+
+	height:750px;
+	width:100%;
+}
+
+.contact {
+  
+ position: relative;
+  height: 92vh;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h2 {
+  font-size:50px;
+	font-family: cursive;
+	text-align: center;
+	margin-top:30px;
+	padding:50px;
+
+
+}
+
+.content .mail {
+  color:floralwhite;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+  padding-bottom: 0.2rem;
+  font-size:25px;
+  font-family: 'Borel', cursive;
+font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.content .links {
+  color:rgb(36, 56, 100);
+  font-weight: 5px;
+  padding: 0.5rem;
+  padding-bottom: 1.8rem;
+  font-size: 30px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.content a {
+  text-decoration: none;
+  color:black;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+  font-family: cursive;
+}
+
+.content a:hover{
+  color: #f0f0e6;
+}
